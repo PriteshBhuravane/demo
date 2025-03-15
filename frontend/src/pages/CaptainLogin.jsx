@@ -20,8 +20,7 @@ const Captainlogin = () => {
       password
     }
 
-    const response = await axios.post("https://demo-dc75.onrender.com/captains/login", captain);
-
+    const response = await axios.post(`https://demo-dc75.onrender.com/captains/login`, captain)
 
     if (response.status === 200) {
       const data = response.data

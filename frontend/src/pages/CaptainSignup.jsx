@@ -42,7 +42,7 @@ const CaptainSignup = () => {
       },
     };
 
-      const response = await axios.post("https://demo-dc75.onrender.com/captains/login",captainData);
+      const response = await axios.post(`https://demo-dc75.onrender.com/captains/register`,captainData);
 
 
       if (response.status === 201) {

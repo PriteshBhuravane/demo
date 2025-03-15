@@ -31,7 +31,7 @@ const UserSignup = () => {
   
     try {
       const response = await axios.post(
-        "https://demo-dc75.onrender.com/captains/login",
+        `https://demo-dc75.onrender.com/users/register`,
         newUser
       );
   
