@@ -20,7 +20,7 @@ const UserLogin = () => {
       email: email,
       password: password
     }
-    const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/users/login`, userData)
+    const response = await axios.post("https://demo-dc75.onrender.com/captains/login", userData)
 
     if(response.status === 200){
      const data= response.data

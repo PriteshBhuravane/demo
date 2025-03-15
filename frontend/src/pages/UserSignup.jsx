@@ -31,7 +31,7 @@ const UserSignup = () => {
   
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_BASE_URL}/users/register`,
+        "https://demo-dc75.onrender.com/captains/login",
         newUser
       );
   
