@@ -1,6 +1,6 @@
 import React from 'react'
 import car from "../assets/car1.png";
-import bike from "../assets/bike.png";
+import bike from "../assets/Bike.png"
 import auto from "../assets/auto.png";
 
 const VehiclePanel = (props) => {
